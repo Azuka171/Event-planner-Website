@@ -274,6 +274,7 @@ nav.menu{
     gap: 100px;
     position: relative;
     padding: 30px 100px;
+    box-sizing: border-box;
 }
 .our>img{
     width: 400px;
