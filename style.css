@@ -292,15 +292,15 @@ nav.menu{
 
 
 }
-.team>div{
+.team>div>p{
     font-size: 18px;
     font-weight: 100;
     text-align: left;
-    text-transform: lowercase;
+    text-transform: initial;
     color: var(--secondary-color);
 }
-.focus>li{
-    margin-bottom: 10px;
+.focus{
+    margin-bottom: 20px;
 }
 .our>div{
     text-align: center;
