@@ -145,7 +145,7 @@ nav.menu{
 .about>h3{
     font-size: 50px;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: var(--primary-color);
     margin: 0px;
@@ -168,27 +168,32 @@ nav.menu{
     text-transform:uppercase;
     font-size: 20px;
     color: white;
+    border-radius: 5px;
 }
-.container-content{
+.mission-vision-section{
     background-color: var(--primary-color);
     width: 100%;
      /* height: 800px;  */
     /* margin: 50px 70px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px; 
-    padding: 30px 0px;
+    gap: 100px; 
+    padding: 100px 200px;
     text-align: center;
+    box-sizing: border-box;
 }
 .card{
     background-color: rgb(227, 217, 217);
-    width: 300px;
-    height: 500px;
-    margin: 20px 0px;
-    margin-left: 50px;
+    /* width: 300px; */
+    /* height: 500px;
+    margin: 20px 0px; */
+    /* margin-left: 50px; */
     /* padding: 4px; */
     /* border-radius: 10px; */
     text-align: center;
+    position: relative;
+    border-radius: 10px;
+
 }
 .heading{
     color: blue;
@@ -208,19 +213,21 @@ nav.menu{
     padding: 4px 8px;
     text-align: left;
     margin-inline: 30px;
+    /* position: relative; */
 }
 .card-content>li{
     margin-bottom: 20px;
     text-transform:inherit;
 }
 .galley{
-    background-color: grey;
+    background-color: white;
     width: 100%;
      /* height: 800px;  */
     /* margin: 50px 70px; */
     /* display: flex;
     flex-wrap: wrap; */
     padding: 30px 40px;
+    box-sizing: border-box;
     
    
 }
@@ -229,25 +236,29 @@ nav.menu{
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: 300;
-    font-family: franklin;
+    font-weight: 900;
+    padding-top:100px;
+    /* font-family: franklin; */
     color:var(--primary-color);
     /* text-decoration: underline; */
 }
 #product-div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
     width: 100%;
+    /* padding-inline:100px; */
+    padding: 50px 100px;
+    box-sizing: border-box;
     /* margin-top: 30px;
     margin-bottom: 0px; */
 }
 #product-div>img{
-    width: 300px;
-    height: 300px;
-    margin: 30px 40px;
-    border: 3px solid rgb(55, 33, 33);
-}
+    width: 100%;
+    height: 100%;
+    /* margin: 30px 40px;
+    border: 3px solid rgb(55, 33, 33); */ */
+} 
 /* .product-div>img{
     width: 400px;
     height: 400px;
@@ -262,7 +273,7 @@ nav.menu{
     justify-content:baseline;
     gap: 100px;
     position: relative;
-    padding: 30px 0px;
+    padding: 30px 100px;
 }
 .our>img{
     width: 400px;
@@ -358,17 +369,29 @@ footer{
     padding: 10px 20px;
     cursor: pointer;
 }
-.Social>svg{
+.social>svg{
     fill: white;
     margin-right: 10px;
 }
-.Social{
+.social{
     margin-bottom: 20px;
 }
-.facebook{
+.social a{
     text-decoration: none;
+    color: white;
 }
 .contact{
     color: white;
     text-align: center;
+}
+.blue-dot{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: -25px;
+    right: 50%;
+    transform: translateX(50%);
+    /* transform: translateY(50%); */
 }
