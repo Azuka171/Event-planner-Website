@@ -170,6 +170,10 @@ nav.menu{
     color: white;
     border-radius: 5px;
 }
+.learn-more-btn>a{
+    text-decoration: none;
+    color: white;
+}
 .mission-vision-section{
     background-color: var(--primary-color);
     width: 100%;
