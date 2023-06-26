@@ -58,6 +58,10 @@ nav.menu{
     background-color: rgb(228, 156, 156);
     cursor: pointer;
 }
+.service-menu>div>a{
+    text-decoration: none;
+    color: white;
+}
 .banner-section{
     /* background-image: url(./images/banner-image.jpg);
     background-size: cover; */
