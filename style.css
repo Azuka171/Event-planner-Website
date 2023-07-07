@@ -257,8 +257,9 @@ nav.menu{
     box-sizing: border-box;
     /* margin-top: 30px;
     margin-bottom: 0px; */
+   
 }
-#product-div>img{
+#product-div img{
     width: 100%;
     height: 100%;
     /* margin: 30px 40px;
@@ -587,7 +588,7 @@ footer{
     .about>h3{
         font-size: 50px;
         font-weight: 300;
-        text-align: left;
+        text-align: center;
         text-transform: uppercase;
         color: var(--primary-color);
         margin: 0px;
@@ -595,7 +596,7 @@ footer{
     .about>div>p{
         font-size: 12px;
         font-weight: 100;
-        text-align: justify;
+        text-align: center;
         text-transform: initial;
         color: black;
         letter-spacing: 1px;
@@ -615,6 +616,7 @@ footer{
     .learn-more-btn>a{
         text-decoration: none;
         color: white;
+        /* text-align: center; */
     }
     .mission-vision-section{
         background-color: var(--primary-color);
@@ -652,13 +654,37 @@ footer{
         text-transform: initial;
         color: var(--secondary-color);
     }
+    .more>img{
+        width: 100%;
+        /* height: 500px; */
+
+    }
+    .our>img{
+        width: 100%;
+        /* height: 400px;
+        margin: 30px; */
+        /* border: 5px solid red; */
+    }
+    .words>p{
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+        text-transform: initial;
+        color: black;
+        letter-spacing: 1px;
+        margin: 10px 50px;
+        padding: 8px 16px;
+    }
+    #product-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 20px;
+        width: 100%;
+       
+    }
 }
 /* for mobile screen */
 @media(max-width:640px) {
-    body{
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px;
-    }
     nav.menu{
         background-color:var(--primary-color);
         color: white;
@@ -756,7 +782,7 @@ footer{
     .about>h3{
         font-size: 50px;
         font-weight: 300;
-        text-align: left;
+        text-align: center;
         text-transform: uppercase;
         color: var(--primary-color);
         margin: 0px;
@@ -764,12 +790,13 @@ footer{
     .about>div>p{
         font-size: 14px;
         font-weight: 100;
-        text-align: left;
+        text-align:  center;
         text-transform: initial;
         color: black;
         /* letter-spacing: 1px; */
         /* margin: 20px 0px; */
         padding: 16px 0px;
+        /* background-color: red; */
     }
     .learn-more-btn{
         background-color: var(--secondary-color);
@@ -821,4 +848,9 @@ footer{
         text-transform: initial;
         color: var(--secondary-color);
     }
+    #product-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
