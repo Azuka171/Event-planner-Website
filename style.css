@@ -635,7 +635,7 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
         gap: 50px; 
-        padding: 100px 20px;
+        padding: 30px 10px;
         text-align: center;
         box-sizing: border-box;
     }
@@ -711,8 +711,10 @@ footer{
         padding: 50px 40%;
     }
     .copy-right{
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: space-around;
         box-sizing: border-box;
+        font-size: 14px;
     }
     .our{
         box-sizing: border-box;
@@ -731,6 +733,13 @@ footer{
     }
     .learn-more-btn{
         margin-left: 40%;
+    }
+    .card{
+        box-sizing: border-box;
+        padding: 10px 20px;
+    }
+    .card-content{
+        text-align: justify;
     }
     
 }
