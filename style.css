@@ -494,6 +494,9 @@ footer{
    color: white;
    box-sizing: border-box;
 }
+.hamburger{
+    display: none;
+}
 
 /* for tablet screen */
 @media(max-width:1020px) {
@@ -510,7 +513,7 @@ footer{
          padding: 10px 20px;
     }
     .service-menu{
-        display: flex;
+        display: none;
          /* margin-right: 300px;  */
     }
     .service-menu>div{
@@ -519,9 +522,11 @@ footer{
         text-transform: uppercase;
     }
     .menu-logo img{
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         border-radius: 100px;
+        margin-left:10px;
+        margin-top: 10px;
     }
     .logo-div{
         background-color: blue;
@@ -591,7 +596,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: baseline;
-        /* gap: 10px; */
+        gap: 10px; 
         position: relative;
         padding: 60px 10px;
         box-sizing: border-box;
@@ -680,15 +685,16 @@ footer{
         margin: 30px; */
         /* border: 5px solid red; */
     }
+    .words{
+        padding: 5px 10px;
+        margin: opx;
+    }
     .words>p{
-        font-size: 20px;
-        font-weight: 100;
+        margin: 0px;
         text-align: center;
-        text-transform: initial;
-        color: black;
-        letter-spacing: 1px;
-        margin: 10px 50px;
-        padding: 8px 16px;
+    }
+    .choose{
+        font-size: 25px;
     }
     #product-div{
         display: grid;
@@ -743,6 +749,12 @@ footer{
     .card-content{
         text-align: justify;
     } 
+    .hamburger{
+        display: block;
+        fill: white;
+        width: 10px;
+        height: 10px;
+    }
     
 }
 /* for mobile screen */
@@ -759,7 +771,7 @@ footer{
          box-sizing: border-box;
     }
     .service-menu{
-        display: flex;
+        display: none;
          /* margin-right: 300px;  */
     }
     .service-menu>div{
@@ -769,9 +781,11 @@ footer{
         font-size: 12px;
     }
     .menu-logo img{
-        width: 45px;
-        height: 45px;
+        width: 60px;
+        height: 60px;
         border-radius: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
     .logo-div{
         background-color: blue;
@@ -841,7 +855,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: baseline;
-        /* gap: 100px; */
+        gap: 10px;
         position: relative;
         padding: 50px 10px;
         box-sizing: border-box;
@@ -909,7 +923,7 @@ footer{
         color: white;
         text-align: left;
         font-size: 8px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .team>div>p{
         font-size: 14px;
@@ -985,5 +999,22 @@ footer{
     }
     .learn-more-btn{
         margin-left: 40%;
+    }
+    .words{
+        padding: 5px 10px;
+        margin: opx;
+    }
+    .words>p{
+        margin: 0px;
+        text-align: center;
+    }
+    .choose{
+        font-size: 25px;
+    }
+    .hamburger{
+        display: block;
+        fill: white;
+        width: 10px;
+        height: 10px;
     }
 }
