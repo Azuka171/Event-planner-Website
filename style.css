@@ -1030,4 +1030,7 @@ footer{
         bottom: 0px;
         box-sizing:border-box ;
     }
+    .card-content{
+        text-align: center;
+    }
 }
