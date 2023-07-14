@@ -762,6 +762,9 @@ footer{
         bottom: 0px;
         box-sizing:border-box ;
     }
+    .history{
+        font-size: 30px;
+    }
     
 }
 /* for mobile screen */
@@ -1033,4 +1036,5 @@ footer{
     .card-content{
         text-align: center;
     }
+
 }
