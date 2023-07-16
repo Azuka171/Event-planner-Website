@@ -596,7 +596,7 @@ footer{
         text-align: center;
         text-transform: uppercase;
         color: white;
-        margin-top: 170px;
+        margin-top: 50px;
     }
     .note{
         font-size: 30px;
@@ -736,8 +736,8 @@ footer{
         padding: 50px 40%;
     }
     .copy-right{
-        flex-direction: column;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-between;
         box-sizing: border-box;
         font-size: 14px;
     }
@@ -914,7 +914,7 @@ footer{
         text-align: center;
         text-transform: uppercase;
         color: white;
-        margin-top: 170px;
+        margin-top: 125px;
     }
     .note{
         font-size: 15px;
