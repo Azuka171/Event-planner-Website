@@ -20,6 +20,9 @@ nav.menu{
     align-items: center;
      padding: 10px 20px; 
 }
+.side-bar{
+    display: none;
+}
 .service-menu{
     display: flex;
      /* margin-right: 300px;  */
@@ -499,6 +502,15 @@ footer{
 }
 .hamburger{
     display: none;
+}
+.video-grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 30px;
+    width: 100%;
+    
+    
 }
 
 /* for tablet screen */
