@@ -4,6 +4,9 @@
     --primary-color:rgb(238, 11, 11);
     --secondary-color:black;
 }
+/* *{
+    outline: 1px solid black;
+} */
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -767,14 +770,26 @@ footer{
         font-size: 20px;
     }
     .side-bar{
-        display: none;
+        /* display: none; */
+        display: flex;
         position: absolute;
         right: 0px;
+        top: 0px;
         flex-direction: column;
+        /* background-color: cyan; */
         background-color: var(--primary-color);
-        height: 200vh; 
-        width: 20px;
+        height: 100vh; 
+        width: fit-content;
+        padding-inline: 20px;
+        padding-top: 50px;
+        gap: 30px;
         z-index: 20;
+        box-shadow: 1px 2px 30px grey;
+    }
+    .hamburger-trigger-close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
     #side-bar-trigger:checked~.side-bar{
         display: flex !important;
