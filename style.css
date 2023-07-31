@@ -99,7 +99,7 @@ nav.menu{
     opacity: 0.5;
 }
 .welcome{
-    font-size: 40px;
+    font-size: 100px;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -108,9 +108,10 @@ nav.menu{
     margin-top: 170px;
 }
 .note{
-    font-size: 30px;
+    font-size: 50px;
     font-style: italic;
     font-family: 'Dancing Script', cursive;
+    /* font-family: font-family: 'Fasthand', cursive;; */
     text-align: center;
     text-transform: capitalize;
     color: white;
@@ -513,6 +514,71 @@ footer{
 .video-grid-section video{
     width: 100%;
 }
+.contact-section{
+    width: 100%;
+    background-color: rgb(225, 212, 212);
+}
+.welcome-page{
+    font-size: 90px;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    /* margin-top: 10px; */
+    padding-top: 20px;
+}
+.note-form{
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    color:black;
+    font-weight: bold;
+}
+.contact-section>p{
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    margin-left: 80px;
+    padding-top: 50px;
+    font-style: italic;
+}
+.form-section{
+    margin-left: 200px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.input-form{
+    width: 400px;
+    height:30px;
+    background-color: white;
+   
+}
+#fullname{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.email-form{
+    margin-top: 20px;
+    width: 400px;
+    height:30px;
+    background-color: white;
+    
+}
+#email-address{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
 
 /* for tablet screen */
 @media(max-width:1020px) {
@@ -601,7 +667,7 @@ footer{
     .note{
         font-size: 30px;
         font-style: italic;
-        font-family: 'Dancing Script', cursive;
+        /* font-family: 'Dancing Script', cursive; */
         text-align: center;
         text-transform: capitalize;
         color: white;
@@ -827,6 +893,43 @@ footer{
         gap: 10px;
         padding-inline: 10px;
     }
+    .welcome-page{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .note-form{
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .contact-section>p{
+        font-size: 12px;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .form-section{
+        margin-left: 10px;
+    }
+    .input-form{
+        width: 250px;
+        height:20px;
+    }
+    #fullname{
+        font-size: 12px;
+        text-align: center;
+        text-transform: capitalize;
+        
+    }
+    .email-form{
+        margin-top: 20px;
+        width: 250px;
+        height:20px;
+    }
+    #email-address{
+        font-size: 12px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
 }
 /* for mobile screen */
 @media(max-width:640px) {
@@ -919,7 +1022,7 @@ footer{
     .note{
         font-size: 15px;
         font-style: italic;
-        font-family: 'Dancing Script', cursive;
+        /* font-family: 'Dancing Script', cursive; */
         text-align: center;
         text-transform: capitalize;
         color: white;
