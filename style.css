@@ -534,7 +534,7 @@ footer{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     text-transform: capitalize;
-    color:black;
+    color:blue;
     font-weight: bold;
 }
 .contact-section>p{
@@ -545,13 +545,14 @@ footer{
     margin-left: 80px;
     padding-top: 50px;
     font-style: italic;
+    color: blue;
 }
 .form-section{
     margin-left: 200px;
     font-size: 20px;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color:black;
 }
 .input-form{
     width: 400px;
@@ -566,7 +567,7 @@ footer{
     
 }
 .email-form{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 400px;
     height:30px;
     background-color: white;
@@ -577,7 +578,69 @@ footer{
     text-align: center;
     text-transform: capitalize;
 }
-
+.phone-number{
+    margin-top: 30px;
+    width: 400px;
+    height:30px;
+    background-color: white;
+}
+#phone-number{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.whatsapp-number{
+    margin-top: 30px;
+    width: 350px;
+    height:30px;
+    background-color: white;
+}
+#whatsapp-number{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.location{
+    margin-top: 30px;
+    width: 400px;
+    height:30px;
+    background-color: white;
+}
+#location{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.state{
+    margin-top: 30px;
+    width: 400px;
+    height:30px;
+    background-color: white;
+}
+#state{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.booking{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: 20px; 
+    color: blue;
+}
+#event-planning{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px; 
+}
+.event-planning{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
 
 
 /* for tablet screen */
@@ -905,6 +968,7 @@ footer{
         font-size: 12px;
         margin-left: 10px;
         padding-top: 10px;
+        color: blue;
     }
     .form-section{
         margin-left: 10px;
@@ -920,7 +984,7 @@ footer{
         
     }
     .email-form{
-        margin-top: 20px;
+        margin-top: 30px;
         width: 250px;
         height:20px;
     }
@@ -928,6 +992,51 @@ footer{
         font-size: 12px;
         text-align: center;
         text-transform: capitalize;
+    }
+    .phone-number{
+        margin-top: 30px;
+        width: 250px;
+        height:20px;
+    }
+    #phone-number{
+        font-size: 12px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .whatsapp-number{
+        margin-top: 30px;
+        width: 200px;
+        height:20px;
+    }
+    #whatsapp-number{
+        font-size: 12px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .location{
+        margin-top: 30px;
+        width: 250px;
+        height:20px;
+    }
+    #location{
+        font-size: 12px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .state{
+        margin-top: 30px;
+        width: 250px;
+        height:20px; 
+    }
+    #state{
+        font-size: 12px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .booking{
+        margin-top: 30px;
+        font-size: 15px;
+        color: blue;
     }
 
 }
