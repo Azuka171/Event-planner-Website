@@ -641,8 +641,144 @@ footer{
     text-transform: capitalize;
     font-style: italic;
 }
-
-
+.event-coverage{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#event-coverage{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.bridal-makeup{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#bridal-makeup{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.bridal-hair{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#bridal-hair{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.Traditional-bridal-dressing{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#Traditional-bridal-dressing{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.Wedding-dress {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#Wedding-dress {
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.cakes-for-all-occasions{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#cakes-for-all-occasions{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.small-chops{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#small-chops{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.cocktails{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#cocktails{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.suprise-package{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#suprise-package{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.food-tray{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#food-tray{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.select-event{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: 20px; 
+    color: blue;
+}
+.decoration{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#decoration{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+.submit-btn{
+    font-size: 15px;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
 /* for tablet screen */
 @media(max-width:1020px) {
     body{
@@ -1015,7 +1151,7 @@ footer{
     }
     .location{
         margin-top: 30px;
-        width: 250px;
+        width: 200px;
         height:20px;
     }
     #location{
