@@ -548,11 +548,22 @@ footer{
     color: blue;
 }
 .form-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-left: 200px;
     font-size: 20px;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
     color:black;
+    gap: 50px;
+    width: 70%;
+    margin-inline: auto;
+}
+.form-section input[type="text"]{
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    
 }
 .input-form{
     width: 400px;
@@ -573,13 +584,16 @@ footer{
     background-color: white;
     
 }
+.email-form{
+    margin-top: 0px;
+}
 #email-address{
     font-size: 20px;
     text-align: center;
     text-transform: capitalize;
 }
 .phone-number{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 400px;
     height:30px;
     background-color: white;
@@ -590,7 +604,7 @@ footer{
     text-transform: capitalize;
 }
 .whatsapp-number{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 350px;
     height:30px;
     background-color: white;
@@ -601,7 +615,7 @@ footer{
     text-transform: capitalize;
 }
 .location{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 400px;
     height:30px;
     background-color: white;
@@ -612,7 +626,7 @@ footer{
     text-transform: capitalize;
 }
 .state{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 400px;
     height:30px;
     background-color: white;
@@ -628,7 +642,9 @@ footer{
     text-transform: capitalize;
     font-style: italic;
     margin-top: 20px; 
-    color: blue;
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
 }
 #event-planning{
     width: 15px;
@@ -795,6 +811,30 @@ footer{
 .empire>a{
     text-decoration: none;
     color: white;
+}
+.label-block{
+    display: block;
+}
+.col-span2{
+    grid-column:1/3 ;
+}
+.service-event{
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.text-span2{
+    grid-column:1/3 ;
+    text-align: center;
+}
+.checkbox-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin-inline: auto;
 }
 /* for tablet screen */
 @media(max-width:1020px) {
@@ -1124,7 +1164,14 @@ footer{
         color: blue;
     }
     .form-section{
-        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        width: 90vw;
+        margin-inline: auto;
+    }
+    .form-section>div{
+        width: 100%;
     }
     .input-form{
         width: 250px;
@@ -1137,7 +1184,7 @@ footer{
         
     }
     .email-form{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 250px;
         height:20px;
     }
@@ -1147,7 +1194,7 @@ footer{
         text-transform: capitalize;
     }
     .phone-number{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 250px;
         height:20px;
     }
@@ -1157,7 +1204,7 @@ footer{
         text-transform: capitalize;
     }
     .whatsapp-number{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 200px;
         height:20px;
     }
@@ -1167,7 +1214,7 @@ footer{
         text-transform: capitalize;
     }
     .location{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 200px;
         height:20px;
     }
@@ -1177,7 +1224,7 @@ footer{
         text-transform: capitalize;
     }
     .state{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 250px;
         height:20px; 
     }
@@ -1188,11 +1235,26 @@ footer{
     }
     .booking{
         margin-top: 30px;
-        font-size: 15px;
-        color: blue;
+        font-size: 10px;
     }
     .empire{
         margin-left: 20%;
+    }
+    .form-section input[type="text"]{
+        width: 100%;
+        height: 50px;
+        border-radius: 8px;
+        
+    }
+    .col-span2{
+        grid-column:1/1;
+    }
+    .service-event{
+        font-size: 14px;
+    }
+    .text-span2{
+        grid-column:1/1 ;
+        text-align: left;
     }
 }
 /* for mobile screen */

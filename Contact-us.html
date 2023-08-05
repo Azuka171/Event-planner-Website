@@ -35,68 +35,116 @@
         <div class="contact-section">
             <div class="welcome-page"> Welcome to the D-Empire's</div>
             <div class="note-form">The home of credibility and satisfaction</div>
-            <p>we are at your service book your Event:</p>
+            <div class="service-event">we are at your service book your Event:</div>
             <form class="form-section">
-                <Label for="fullname">Name:</Label>
-                <input type="text"  name="Fullname" id="fullname" placeholder="fullName" class="input-form"><br>
-                <Label for="email-address">Email:</Label>
-                <input type="text"  name="email-address" id="email-address" placeholder="email address" class="email-form"><br>
-                <Label for="phone-number">Phone:</Label>
-                <input type="text"  name="phone-number" id="phone-number" placeholder="phone number" class="phone-number"><br>
-                <Label for="whatsapp-number">Alternative:</Label>
-                <input type="text"  name="whatsapp-number" id="whatsapp-number" placeholder="whatsapp number" class="whatsapp-number"><br>
-                <Label for="location">Location:</Label>
-                <input type="text"  name="location" id="location" placeholder="event address" class="location"><br>
-                <Label for="state">State:</Label>
-                <input type="text"  name="state" id="state" placeholder="" class="state"><br>
-                <Label for="booking" class="booking">what service are you booking for:</Label><br> 
-                <input type="checkbox" name="event-planning" id="event-planning" value="event-planning">
-                <label for="event-planning" class="event-planning">Event Planning</label><br>
-                <input type="checkbox" name="event-coverage" id="event-coverage" value="event-coverage">
-                <label for="event-coverage" class="event-planning">Event Coverage</label><br>
-                <input type="checkbox" name="bridal-makeup" id="bridal-makeup" value="bridal-makeup">
-                <label for="bridal-makeup" class="bridal-makeup">Bridal Makeup</label><br>
-                <input type="checkbox" name="bridal-hair" id="bridal-hair" value="bridal-hair">
-                <label for="bridal-hair" class="bridal-hair">Bridal Hair</label><br>
-                <input type="checkbox" name="Traditional-bridal-dressing" id="Traditional-bridal-dressing" value="Traditional-bridal-dressing">
-                <label for="Traditional-bridal-dressing" class="Traditional-bridal-dressing">Traditional Bridal Dressing</label><br>
-                <input type="checkbox" name="Wedding-dress" id="Wedding-dress" value="Wedding-dress">
-                <label for="Wedding-dress " class="Wedding-dress">Wedding Dress </label><br>
-                <input type="checkbox" name="cakes-for-all-occasions" id="cakes-for-all-occasions" value="cakes-for-all-occasions">
-                <label for="cakes-for-all-occasions" class="cakes-for-all-occasions">Cakes For All Occasions </label><br>
-                <input type="checkbox" name="small-chops 
-                " id="small-chops" value="small-chops">
-                <label for="small-chops" class="small-chops">Small Chops</label><br>
-                <input type="checkbox" name="cocktails  
-                " id="cocktails" value="cocktails">
-                <label for="cocktails" class="cocktails ">Cocktails</label><br>
-                <input type="checkbox" name="suprise-package
-                " id="suprise-package" value="suprise-package">
-                <label for="suprise-package" class="suprise-package">Suprise Package</label><br>
-                <input type="checkbox" name="food-tray
-                " id="food-tray" value="food-tray">
-                <label for="food-tray" class="food-tray">food Tray
-                </label><br>
-                <input type="checkbox" name="decoration
-                " id="decoration" value="decoration">
-                <label for="decoration" class="decoration">Decoration</label><br>
-                <label class="select-event"> Select Event to be Booked</label><br>
-                <select name="Event" >
-                    <option selected disabled>Select Event</option>
-                    <option value="Traditional-Marriage">Traditional Marriage</option>
-                    <option value="Wedding">Wedding</option>
-                    <option value="Wedding-Anniversary">Wedding Anniversary</option>
-                    <option value="Birthday-Party">Birthday Party</option>
-                    <option value="House-Warming">House Warming</option>
-                    <option value="Banquets">Banquets</option>
-                    <option value="Suprise-party">Suprise Party</option>
-                    <option value="Dinner-party">Dinner Party</option>
-                    <option value="Garden-part">Garden Party</option>
-                    <option value="Cocktail-party">Cocktail Party</option>
-                    <option value="Tea-part">Tea Party</option>
-                    <option value="Tea-part">Balls</option>
-                </select><br>
-                <input type="submit" class="submit-btn">
+                <div>
+                    <label for="fullname" class="label-block">Name:</label>
+                    <input type="text"  name="Fullname" id="fullname" placeholder="fullName" class="input-form">
+                </div>
+               <div>
+                    <label for="email-address" class="label-block">Email:</label>
+                    <input type="text"  name="email-address" id="email-address" placeholder="email address" class="email-form">
+               </div>
+               <div>
+                    <label for="phone-number" class="label-block">Phone:</label>
+                    <input type="text"  name="phone-number" id="phone-number" placeholder="phone number" class="phone-number">
+               </div>
+                <div>
+                    <label for="whatsapp-number" class="label-block">Alternative:</label>
+                    <input type="text"  name="whatsapp-number" id="whatsapp-number" placeholder="whatsapp number" class="whatsapp-number">
+                </div>
+                <div class="col-span2">
+                    <label for="location" class="label-block">Location:</label>
+                    <input type="text"  name="location" id="location" placeholder="event address" class="location">
+                </div>
+                <div class="col-span2">
+                    <label for="state" class="label-block">State:</label>
+                    <input type="text"  name="state" id="state" placeholder="" class="state">
+                </div>
+                
+                <div class="container-checkbox col-span2">
+                    <div class="booking">
+                        what service are you booking for:
+                    </div>
+                    <div  class="checkbox-section">
+                        <div>
+                            <input type="checkbox" name="event-planning" id="event-planning" value="event-planning">
+                            <label for="event-planning" class="event-planning">Event Planning</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="event-coverage" id="event-coverage" value="event-coverage">
+                            <label for="event-coverage" class="event-planning">Event Coverage</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="bridal-makeup" id="bridal-makeup" value="bridal-makeup">
+                            <label for="bridal-makeup" class="bridal-makeup">Bridal Makeup</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="bridal-hair" id="bridal-hair" value="bridal-hair">
+                            <label for="bridal-hair" class="bridal-hair">Bridal Hair</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Traditional-bridal-dressing" id="Traditional-bridal-dressing" value="Traditional-bridal-dressing">
+                            <label for="Traditional-bridal-dressing" class="Traditional-bridal-dressing">Traditional Bridal Dressing</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Wedding-dress" id="Wedding-dress" value="Wedding-dress">
+                            <label for="Wedding-dress " class="Wedding-dress">Wedding Dress </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cakes-for-all-occasions" id="cakes-for-all-occasions" value="cakes-for-all-occasions">
+                            <label for="cakes-for-all-occasions" class="cakes-for-all-occasions">Cakes For All Occasions </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="small-chops 
+                         " id="small-chops" value="small-chops">
+                            <label for="small-chops" class="small-chops">Small Chops</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cocktails  
+                        " id="cocktails" value="cocktails">
+                            <label for="cocktails" class="cocktails ">Cocktails</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="suprise-package
+                        " id="suprise-package" value="suprise-package">
+                            <label for="suprise-package" class="suprise-package">Suprise Package</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="food-tray
+                        " id="food-tray" value="food-tray">
+                            <label for="food-tray" class="food-tray">food Tray
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="decoration
+                        " id="decoration" value="decoration">
+                            <label for="decoration" class="decoration">Decoration</label>
+                        </div>
+                    </div>
+                <div>
+                    <label class="select-event"> Select Event to be Booked</label><br>
+                </div>
+                <div>
+                    <select name="Event" >
+                        <option selected disabled>Select Event</option>
+                        <option value="Traditional-Marriage">Traditional Marriage</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Wedding-Anniversary">Wedding Anniversary</option>
+                        <option value="Birthday-Party">Birthday Party</option>
+                        <option value="House-Warming">House Warming</option>
+                        <option value="Banquets">Banquets</option>
+                        <option value="Suprise-party">Suprise Party</option>
+                        <option value="Dinner-party">Dinner Party</option>
+                        <option value="Garden-part">Garden Party</option>
+                        <option value="Cocktail-party">Cocktail Party</option>
+                        <option value="Tea-part">Tea Party</option>
+                        <option value="Tea-part">Balls</option>
+                    </select><br>
+                </div>
+                <div>
+                    <input type="submit" class="submit-btn">
+                </div>
             </form>
         </div>
         <footer>
