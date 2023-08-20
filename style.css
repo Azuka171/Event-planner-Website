@@ -247,9 +247,9 @@ nav.menu{
     /* margin-top:5px ; */
     text-align: center;
     text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 900;
-    padding-top:100px;
+    font-size: 150px;
+    font-weight: 600;
+    padding-top:50px;
     /* font-family: franklin; */
     color:var(--primary-color);
     /* text-decoration: underline; */
@@ -868,7 +868,14 @@ footer{
     display: flex;
     justify-content: center;
 }
-
+.arrangement{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top:100px;
+    color:var(--primary-color);
+}
 
 
 /* for tablet screen */
@@ -1288,6 +1295,17 @@ footer{
         grid-column:1/1 ;
         text-align: left;
     }
+    .product{
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0px;
+    }
+    .arrangement{
+        padding-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
 }
 /* for mobile screen */
 @media(max-width:640px) {
@@ -1478,10 +1496,10 @@ footer{
         padding: 50px 10px;
         box-sizing: border-box;
     }
-    .product{
+    /* .product{
         padding: 20px 0px;
         font-size: 30px;
-    }
+    } */
     .our>img{
         width: 100%;
         margin: auto;
